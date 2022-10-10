@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrap{
+  width: 25rem;
+  border: 2.5px solid black;
+  margin: 50px auto;
+  overflow: hidden;
+  background-color: #58657655;
+  border-radius: 20px;
+}
+.display{
+  border: 2px solid rgb(51, 4, 4);
+  width: 100%;
+  height: 6rem;
+  margin-bottom: 1rem;
+  background-color: #dde4ecdf;
+  font-size: 5rem;
+  text-align: end;
+}
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+.button-digits{
+  padding: 1.5rem;
+  border: none;
+  background-color: #58657655;
+  color: #1b263f;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.button-digits:hover{
+   background-color: #f0ebd8;
+}
+
